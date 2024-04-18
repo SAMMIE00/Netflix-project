@@ -1,0 +1,268 @@
+body {
+    margin: 0%;
+    padding: 0%;
+    background-color:black;
+}
+
+.section1 {
+    background-image:linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(Images/netflix\ background\ image.jpg);
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.netflix {
+    margin: 30px;
+    position: relative;
+    bottom: 60px;
+}
+
+.login {
+    margin: 70px;
+    position: relative;
+    bottom: 60px;
+}
+
+.login a {
+    border-radius: 7px;
+    background-color: red;
+    padding: 15px;
+    width: 90px;
+    height: 20px;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+}
+
+.part {
+    color: white;
+    text-align: center;
+    width: 100%;
+}
+
+.first h1 {
+    font-size: 40px;
+}
+
+.part p {
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+.form input {
+    width: 350px;
+    height: 30px;
+    padding: 12px 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 7px;
+    background-color: #00000080;
+}
+
+button {
+    width: 200px;
+    height: 55px;
+    padding: 12px 10px;
+    margin: 10px 0;
+    border-radius: 7px;
+    border: 1px;
+    background-color: red;
+    color: white;
+    font-size: 20px;
+}
+
+.section2 {
+    background-color: black;
+    color: white;
+    height: 500px;
+    align-content: center;
+    flex-direction: row;
+    display: flex;
+}
+
+.text2 {
+    font-size: 20px;
+    width: 400px;
+    margin-left: 200px;
+    margin-top: 120px;
+}
+
+.sec2img {
+    width: 350px;
+}
+
+.section3 {
+    background-color: black;
+    color: white;
+    height: 500px;
+    align-content: center;
+    flex-direction: row;
+    display: flex;
+}
+
+.text3 {
+    font-size: 20px;
+    width: 400px;
+    margin-left: 700px;
+    margin-top: 120px
+}
+
+.sec3img {
+    width: 100px;
+    height: 80px;
+}
+
+.section4 {
+    background-color: black;
+    color: white;
+    height: 500px;
+    align-content: center;
+    flex-direction: row;
+    display: flex;
+}
+
+.text4 {
+    font-size: 20px;
+    width: 400px;
+    margin-left: 200px;
+    margin-top: 120px
+}
+
+.section5 {
+    background-color: black;
+    color: white;
+    height: 500px;
+    align-content: center;
+    flex-direction: row;
+    display: flex;
+}
+
+.text5 {
+    font-size: 20px;
+    width: 400px;
+    margin-left: 700px;
+    margin-top: 120px
+}
+
+.sec5img {
+    width: 100px;
+    height: 80px;
+}
+
+.section6 {
+    background-color: black;
+    color: white;
+    text-align: center;
+    display: block;
+    height: 850px;
+}
+
+.form6text {
+    width: 1000px;
+    height: 70px;
+    padding: 12px;
+    margin: 10px 0;
+    border: 1px;
+    background-color: grey;
+    color: white;
+    margin-left: 180px;
+    text-align: left;
+    font-size: 20px;
+}
+
+.form6b input {
+    width: 350px;
+    height: 30px;
+    padding: 12px 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 7px;
+    background-color: #00000080;
+}
+
+.form6b input {
+    color: white;
+}
+
+.form6b {
+    font-size: 25px;
+    color: white;
+}
+
+.text6 h1 {
+    font-size: 50px;
+
+}
+
+.section7 {
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-self: center;
+}
+
+.section7 ul li a {
+    color: white;
+}
+
+.section7 select {
+    padding: 9px;
+}
+
+.sec7 {
+    width: 900px;
+    text-align: center;
+    margin-left: 200px;
+    justify-content: space-between;
+    color: white;
+    font-size: 18px;
+    display: flex;
+    flex-direction: row;
+}
+
+.sec7 p {
+    color: white;
+    font-size: 18px;
+}
+
+.lang {
+    display: flex;
+    align-self: center;
+}
+hr{
+    height: 3px;
+    background-color: gray;
+    
+}
+.footerpart{
+    background-color: black;
+    margin-left: 180px;
+}
+.footer-col a{
+    color: white;
+}
+.footer-row {
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: space-between;
+ }
+
+.footer-col {
+     flex: 0 0 23%;
+     max-width: 23%;
+ }
+ .m{
+    background-color: red;
+ }
+ .English{
+    width: 140px; 
+    height: 40px;
+    background-color:rgb(10, 9, 9);
+    color: white;
+    border-radius: 5px;
+ }
